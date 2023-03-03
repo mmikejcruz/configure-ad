@@ -21,9 +21,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Setup Resources in Azure
-- Ensure Connectivity between the client and Domain Controller
+- Ensure Connectivity between the windows 10 virtual machine and Domain Controller
 - Create an Admin and Normal User Account in AD
-- Join Client-1 to your domain (mydomain.com)
+- Join windows 10 virtual machine to your domain
 
 <h2>Deployment and Configuration Steps</h2>
 
