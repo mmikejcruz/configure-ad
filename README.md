@@ -28,10 +28,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HfT8DEF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Set up Recources by Creating the Domain Controller Virtual Machine (Windows Server 2022). Set Domain Controller’s NIC Private IP address to be static. Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher. Ensure Connectivity between the windows 10 virtual machine and Domain Controller.Login to windows 10 virtual machine with Remote Desktop and ping Domain's Controller private IP address with ping. Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall.
 </p>
 <br />
 
