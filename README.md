@@ -22,7 +22,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Setup Resources in Azure
 - Ensure Connectivity between the windows 10 virtual machine and Domain Controller
-- Create an Admin and Normal User Account in AD
+- Create an Admin and Normal User Account in Active Directory
 - Join windows 10 virtual machine to your domain
 
 <h2>Deployment and Configuration Steps</h2>
