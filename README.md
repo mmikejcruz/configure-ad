@@ -21,9 +21,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Setup Resources in Azure
-- Ensure Connectivity between the windows 10 virtual machine and Domain Controller
+- Ensure Connectivity between the Windows 10 virtual machine and Domain Controller
 - Create an Admin and Normal User Account in Active Directory
-- Join windows 10 virtual machine to your domain
+- Join Windows 10 virtual machine to your domain
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -31,7 +31,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/HfT8DEF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Set up Recources by Creating the Domain Controller Virtual Machine (Windows Server 2022). Set Domain Controller’s NIC Private IP address to be static. Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher. Ensure Connectivity between the windows 10 virtual machine and Domain Controller.Login to windows 10 virtual machine with Remote Desktop and ping Domain's Controller private IP address with ping. Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall.
+Set up Resources by Creating the Domain Controller Virtual Machine (Windows Server 2022). Set Domain Controller’s NIC Private IP address to be static. Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher. Ensure Connectivity between the Windows 10 virtual machine and Domain Controller. Login to Windows 10 virtual machine with Remote Desktop and ping Domain's Controller private IP address. Login to the Domain Controller and enable ICMPv4 on the local Windows Firewall.
 </p>
 <br />
 
@@ -47,7 +47,7 @@ In Active Directory Users and Computers (ADUC), create an Organizational Unit (O
 <img src="https://i.imgur.com/0e1jXDg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Join windows 10 virtual machine to your domain (mydomain.com)
+Join Windows 10 virtual machine to your domain (mydomain.com)
 From the Azure Portal, set virtual machine DNS settings to the Domain controller's Private IP address.
 
 </p>
